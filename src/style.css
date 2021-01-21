@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  font-family: "Bree Serif", serif;
+}
+.card {
+  height: 35rem;
+}
+.iconTop {
+  height: 5rem;
+  margin-top: -0.9rem;
+}
+.cardHeight {
+  height: 25rem;
+}
+.iconBottom {
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+.numberCard {
+  font-size: 10rem;
+}
+.heart {
+  color: red;
+  font-size: 4rem;
+}
+.diamond {
+  color: red;
+  font-size: 4rem;
+}
+.club {
+  color: black;
+  font-size: 4rem;
+}
+.spade {
+  color: black;
+  font-size: 4rem;
+}
+span {
+  font-size: 4rem;
+}
+.flip {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
